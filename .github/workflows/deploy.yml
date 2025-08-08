@@ -44,7 +44,7 @@ jobs:
           node-version: '20'
 
       - name: Install CDK
-        run: npm install -g aws-cdk@2.210.0
+        run: npm install -g aws-cdk@latest
 
       - name: Deploy app
         # env:
