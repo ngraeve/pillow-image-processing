@@ -7,6 +7,7 @@ from aws_cdk import (
     aws_iam as iam,
 )
 from constructs import Construct
+from aws_solutions_constructs.aws_s3_lambda import S3ToLambda
 
 class PillowImageProcessingStack(Stack):
     """
