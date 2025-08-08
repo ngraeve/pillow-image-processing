@@ -1,3 +1,9 @@
 {
-  "app": "python3 infra/app.py"
+  "app": "python3 infra/app.py",
+  "context": {},
+  "output": "cdk.out",
+  "requireApproval": "never",
+  "python": {
+    "workingDirectory": "."
+  }
 }
